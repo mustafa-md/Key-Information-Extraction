@@ -49,11 +49,6 @@ class trainModel:
 
                 new_line = re.sub(' +', ' ', new_line)
 
-                # if val_path:
-                #     Data.append(new_line)
-                #     VAL_JSON_DIR.append(txtFile[:-3] + 'json')
-                #     continue
-
                 jsonFile = glob.glob(sub_folder + '*.json')[0]
                 f_json = open(jsonFile, )
                 json_data = json.load(f_json)
