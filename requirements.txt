@@ -1,133 +1,54 @@
 APScheduler==3.7.0
-argcomplete==1.10.0
-attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
-backcall==0.1.0
-beautifulsoup4==4.8.0
-bleach==3.1.0
-blis @ file:///C:/ci/cython-blis_1613319550054/work
-brotlipy==0.7.0
-cachetools==3.1.1
+blis==0.7.4
 catalogue==1.0.0
 certifi==2020.12.5
-cffi @ file:///C:/ci/cffi_1613247269562/work
-chardet @ file:///C:/ci/chardet_1607706912142/work
-click @ file:///home/linux1/recipes/ci/click_1610990599742/work
+chardet==4.0.0
+click==7.1.2
 colorhash==1.0.3
 configparser==5.0.2
-contextvars==2.4
-cryptography @ file:///C:/ci/cryptography_1615532454813/work
-cupy-cuda101==8.5.0
 cycler==0.10.0
-cymem @ file:///C:/ci/cymem_1613319479701/work
-dataclasses==0.8
-decorator==4.4.0
-defusedxml==0.6.0
-docx2txt==0.8
-EbookLib==0.17.1
-en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.3.1/en_core_web_lg-2.3.1.tar.gz
-en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.3.1/en_core_web_md-2.3.1.tar.gz
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
-entrypoints==0.3
-extract-msg==0.23.1
-fastrlock==0.5
-Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
+cymem==2.0.5
+Flask==1.1.2
 Flask-Cors==3.0.10
 Flask-MonitoringDashboard==3.1.0
-google-api-core==1.14.3
-google-auth==1.6.3
-googleapis-common-protos==1.6.0
 greenlet==1.0.0
-grpcio==1.24.3
-idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
-IMAPClient==2.1.0
-immutables==0.15
-importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
-ipykernel==5.1.3
-ipython==7.8.0
-ipython-genutils==0.2.0
-ipywidgets==7.5.1
+idna==2.10
 itsdangerous==1.1.0
-jedi==0.15.1
 Jinja2==2.11.1
-joblib @ file:///tmp/build/80754af9/joblib_1613502643832/work
-jsonschema==3.1.1
-jupyter-client==5.3.4
-jupyter-console==6.0.0
-jupyter-core==4.6.1
-kiwisolver @ file:///C:/ci/kiwisolver_1612282446297/work
-lxml==4.4.1
+joblib==1.0.1
+kiwisolver==1.3.1
 MarkupSafe==1.1.1
-matplotlib @ file:///C:/ci/matplotlib-suite_1613408055530/work
-mistune==0.8.4
-mkl-fft==1.3.0
-mkl-random==1.1.1
-mkl-service==2.3.0
-more-itertools==7.2.0
-murmurhash @ file:///C:/ci/murmurhash_1607456164222/work
-nbconvert==5.6.0
-nbformat==4.4.0
-nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
-notebook==6.0.1
-numpy @ file:///C:/ci/numpy_and_numpy_base_1603480701039/work
+matplotlib==3.4.1
+murmurhash==1.0.5
+nltk==3.6.2
+numpy==1.20.2
 olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
-parso==0.5.1
-pdfminer.six==20181108
-pickleshare==0.7.5
-Pillow @ file:///D:/bld/pillow_1615244155367/work
-plac @ file:///C:/ci/plac_1594260068208/work
-preshed==3.0.2
-prometheus-client==0.7.1
-prompt-toolkit==2.0.10
-protobuf==3.10.0
+packaging==20.9
+pathy==0.5.2
+Pillow==8.2.0
+plac==1.1.3
+preshed==3.0.5
 psutil==5.8.0
-pyasn1==0.4.7
-pyasn1-modules==0.2.7
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
-pycryptodome==3.9.0
 pydantic==1.7.3
-Pygments==2.4.2
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
-pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
-pyrsistent @ file:///C:/ci/pyrsistent_1600141799440/work
-PySocks @ file:///C:/ci/pysocks_1605305839978/work
-python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
-python-pptx==0.6.18
-pytz==2019.3
-pywin32==225
-pyzmq==18.1.0
-qtconsole==4.5.5
-regex @ file:///C:/ci/regex_1606691212760/work
-requests @ file:///tmp/build/80754af9/requests_1608241421344/work
-rsa==4.0
-scipy==1.5.4
-Send2Trash==1.5.0
-six @ file:///C:/ci/six_1605187303045/work
-sortedcontainers==2.1.0
-soupsieve==1.9.4
-spacy @ file:///C:/ci/spacy_1608303000480/work
-SpeechRecognition==3.8.1
-SQLAlchemy==1.4.12
+pyparsing==2.4.7
+pytesseract==0.3.7
+python-dateutil==2.8.1
+pytz==2021.1
+regex==2021.4.4
+requests==2.25.1
+scipy==1.6.3
+six==1.15.0
+smart-open==3.0.0
+spacy==2.3.5
+spacy-legacy==3.0.5
+SQLAlchemy==1.4.13
 srsly==1.0.5
-terminado==0.8.2
-tesserocr @ file:///D:/bld/tesserocr_1610555367025/work
-testpath==0.4.2
-textract==1.6.3
-thinc @ file:///C:/ci/thinc_1607710275191/work
-thinc-gpu-ops @ file:///C:/Users/musta/Downloads/Data%20Science/DL%20Course/imagetotext/thinc_gpu_ops-0.0.4.tar.gz
-tika==1.19
-tornado @ file:///C:/ci/tornado_1606942379977/work
-tqdm @ file:///tmp/build/80754af9/tqdm_1615811520690/work
-traitlets==4.3.3
-typing-extensions==3.7.4.3
+tesserocr @ file:///D:/bld/tesserocr_1610555370345/work
+thinc==7.4.5
+tqdm==4.60.0
+typer==0.3.2
 tzlocal==2.1
-urllib3 @ file:///tmp/build/80754af9/urllib3_1611694770489/work
-wasabi @ file:///tmp/build/80754af9/wasabi_1612219178408/work
-wcwidth==0.1.7
-webencodings==0.5.1
-Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
-widgetsnbextension==3.5.1
-win-inet-pton @ file:///C:/ci/win_inet_pton_1605306197271/work
+urllib3==1.26.4
+wasabi==0.8.2
+Werkzeug==1.0.1
 wincertstore==0.2
-xlrd==1.2.0
-XlsxWriter==1.2.2
-zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work

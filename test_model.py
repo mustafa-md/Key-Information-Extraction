@@ -2,6 +2,7 @@ import glob
 import json
 import re
 import spacy
+from ocr import Ocr
 
 
 class testModel:
@@ -105,3 +106,12 @@ class testModel:
 
         # print("Total Entities: ", len(self.result_dict_list) * 4)
         # print("Recognized entities: ", cnt_ent)
+
+if __name__ == "__main__":
+    OCR = Ocr()
+    data = OCR.process_single_image("images/inputImage.jpg")
+    test_model_obj = testModel('trained_model', 'out')
+    test_model_obj.test_ner(data)
+    test_model_obj.format_json_files()
+    result = test_model_obj.result_dict_list[0]
+    print(result)
