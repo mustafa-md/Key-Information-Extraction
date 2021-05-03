@@ -22,7 +22,6 @@ matplotlib==3.4.1
 murmurhash==1.0.5
 nltk==3.6.2
 numpy==1.20.2
-olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
 packaging==20.9
 pathy==0.5.2
 Pillow==8.2.0
@@ -43,7 +42,7 @@ spacy==2.3.5
 spacy-legacy==3.0.5
 SQLAlchemy==1.4.13
 srsly==1.0.5
-tesserocr @ file:///D:/bld/tesserocr_1610555370345/work
+tesserocr
 thinc==7.4.5
 tqdm==4.60.0
 typer==0.3.2
